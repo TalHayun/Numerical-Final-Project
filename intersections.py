@@ -41,14 +41,6 @@ class Assignment2:
 
     def intersections( self, f1: callable, f2: callable, a: float, b: float, maxerr=0.001 ) -> Iterable:
         """
-        Find as many intersection points as you can. The assignment will be
-        tested on functions that have at least two intersection points, one
-        with a positive x and one with a negative x.
-
-        This function may not work correctly if there is infinite number of
-        intersection points.
-
-
         Parameters
         ----------
         f1 : callable
