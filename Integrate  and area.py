@@ -33,16 +33,7 @@ class Assignment3:
 
     def integrate( self, f: callable, a: float, b: float, n: int ) -> np.float32:
         """
-        Integrate the function f in the closed range [a,b] using at most n
-        points. Your main objective is minimizing the integration error.
-        Your secondary objective is minimizing the running time. The assignment
-        will be tested on variety of different functions.
-
-        Integration error will be measured compared to the actual value of the
-        definite integral.
-
-        Note: It is forbidden to call f more than n times.
-
+        
         Parameters
         ----------
         f : callable. it is the given function
